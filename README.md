@@ -1,0 +1,1 @@
+This repository contains practices of seaborn python module with datasets
