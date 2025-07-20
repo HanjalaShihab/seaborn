@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
+#Usually, we use scatter plots to highlight the relationship between two continuous variables (like "bmi" and "charges"). 
+
 file_path = "scatter plot/insurance.csv"
 insurance = pd.read_csv(file_path)
 
