@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-file_path = "spotify/spotify.csv"
+file_path = "lineplot/spotify.csv"
 spotify = pd.read_csv(file_path, index_col= "Date", parse_dates= True)
 
 plt.figure(figsize=(16,6))

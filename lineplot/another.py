@@ -4,7 +4,7 @@ import seaborn as sns
 
 
                            #loading the data
-file_path = "spotify/spotify.csv"
+file_path = "lineplot/spotify.csv"
 
 data = pd.read_csv(file_path, index_col="Date", parse_dates = True)
 
