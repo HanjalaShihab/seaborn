@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
+#Histograms in Seaborn are used primarily to visualize the
+# distribution of continuous numerical data — to understand how data values are spread across different ranges.
 
 #loading the data:
 file_path = "Distributions/iris.csv"
